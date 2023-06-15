@@ -1,5 +1,13 @@
 p {
-  font-size: 25px;
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 40px;
+}
+
+h1 {
+  font-size: 70px;
 }
 
 .all-profiles {
@@ -9,19 +17,25 @@ p {
 .each-profile{
   float: left;
   margin-left: 1em;
+  margin-bottom: 2em;
   width: 35em;
 
-  border: 6px ridge black;
+  border: 6px dotted black;
   border-radius: 50px;
 
-  background: rgb(215, 231, 229);
+  background: rgb(159 199 150);
 }
 
 .each-profile p{
+  font-weight: bold;
   text-align: center;
+  text-shadow: 2px 1px 0px rgb(166 176 156);
 }
 
 .each-profile .desc {
+  font-style: oblique;
+  text-shadow: none;
+
   text-align: justify;
   margin-left: 1em;
   margin-right: 1em;
@@ -33,8 +47,8 @@ p {
   padding-right: 2em;
   padding-bottom: 0.5em;
 
-  font-size: 17px;
-  line-height: 20px;
+  font-size: 23px;
+  line-height: 28px;
 }
 
 .each-profile img{
