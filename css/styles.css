@@ -5,6 +5,10 @@ body {
   margin-right: 0px;
 }
 
+p {
+  font-size: 35px;
+}
+
 .page-title {
   background:#ad7878;
 }
@@ -44,6 +48,11 @@ body {
 
 h3 {
   font-size: 30px;
+  margin-left: 20px;
+}
+
+.time-error {
+  color: rgb(221, 0, 0);
 }
 
 .all-profiles {
@@ -71,6 +80,7 @@ h3 {
 .each-profile .desc {
   font-style: oblique;
   text-shadow: none;
+  font-size: 25px;
 
   text-align: justify;
   margin-left: 1em;
@@ -83,8 +93,8 @@ h3 {
   padding-right: 2em;
   padding-bottom: 0.5em;
 
-  font-size: 23px;
-  line-height: 28px;
+  font-size: 18px;
+  line-height: 20px;
 }
 
 .each-profile img{
