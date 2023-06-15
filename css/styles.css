@@ -1,21 +1,35 @@
+p {
+  font-size: 20px;
+}
+
 .all-profiles {
   float: center;
   margin: auto;
-  width: 60%;
-}
-
-.all-profiles p {
-  text-align: center;
+  width: 90%;
 }
 
 .each-profile{
   float: left;
-  margin: 10px;
-  width: 25em;
+  margin: 1em;
+  width: 35em;
+}
+
+.each-profile p{
+  text-align: center;
+}
+
+.each-profile .desc {
+  text-align: justify;
+  margin-left: 2em;
+  margin-right: 1em;
+}
+
+.each-profile ul {
+  padding-left: 3em;
 }
 
 .each-profile img{
   margin-left: 3em;
   margin-right: 3em;
-  width: 20em;
+  width: 30em;
 }
