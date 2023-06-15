@@ -1,20 +1,12 @@
 body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.company-info {
-  font-size: 40px;
-  background: green;
-  padding: 20px 30px 30px 30px;
-
-  margin-right: 5%;
-  margin-left: 5%;
-
-  text-align: justify;
+  background-color:#87799e;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .page-title {
-  background: grey;
+  background:#ad7878;
 }
 
 .page-title p {
@@ -35,6 +27,19 @@ body {
   margin-top: 10px;
   margin-left: 20px;
   padding-bottom: 20px;
+}
+
+.company-info {
+  font-size: 40px;
+  background:#b987a9;
+  padding: 20px 30px 30px 30px;
+
+  margin-right: 5%;
+  margin-left: 5%;
+
+  text-align: justify;
+
+  border: 17px double black;
 }
 
 h3 {
