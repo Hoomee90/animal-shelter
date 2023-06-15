@@ -1,0 +1,21 @@
+.all-profiles {
+  float: center;
+  margin: auto;
+  width: 60%;
+}
+
+.all-profiles p {
+  text-align: center;
+}
+
+.each-profile{
+  float: left;
+  margin: 10px;
+  width: 25em;
+}
+
+.each-profile img{
+  margin-left: 3em;
+  margin-right: 3em;
+  width: 20em;
+}
