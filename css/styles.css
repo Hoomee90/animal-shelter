@@ -1,13 +1,44 @@
-p {
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.company-info {
+  font-size: 40px;
+  background: green;
+  padding: 20px 30px 30px 30px;
+
+  margin-right: 5%;
+  margin-left: 5%;
+
+  text-align: justify;
+}
+
+.page-title {
+  background: grey;
+}
+
+.page-title p {
   font-size: 35px;
+  margin: 16px 0px 0px 20px;
+  padding-top: 20px;
+}
+
+.page-title h1 {
+  font-size: 90px;
+
+  margin-top: 0px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+.page-title h3 {
+  margin-top: 10px;
+  margin-left: 20px;
+  padding-bottom: 20px;
 }
 
 h3 {
-  font-size: 40px;
-}
-
-h1 {
-  font-size: 70px;
+  font-size: 30px;
 }
 
 .all-profiles {
