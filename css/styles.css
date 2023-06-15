@@ -1,17 +1,20 @@
 p {
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .all-profiles {
   float: center;
-  margin: auto;
-  width: 90%;
 }
 
 .each-profile{
   float: left;
-  margin: 1em;
+  margin-left: 1em;
   width: 35em;
+
+  border: 6px ridge black;
+  border-radius: 50px;
+
+  background: rgb(215, 231, 229);
 }
 
 .each-profile p{
@@ -20,16 +23,22 @@ p {
 
 .each-profile .desc {
   text-align: justify;
-  margin-left: 2em;
+  margin-left: 1em;
   margin-right: 1em;
 }
 
 .each-profile ul {
-  padding-left: 3em;
+  text-align: justify;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 0.5em;
+
+  font-size: 17px;
+  line-height: 20px;
 }
 
 .each-profile img{
-  margin-left: 3em;
+  margin-left: 2em;
   margin-right: 3em;
   width: 30em;
 }
