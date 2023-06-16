@@ -67,7 +67,7 @@ h3 {
   background: rgb(159 199 150);
 }
 
-.profile p{
+.profile p {
   font-weight: bold;
   text-align: center;
   text-shadow: 2px 1px 0px rgb(166 176 156);
@@ -97,4 +97,22 @@ h3 {
   margin-left: 2em;
   margin-right: 3em;
   width: 30em;
+}
+
+@font-face {
+  font-family: blackNorth;
+  src: url(fonts/Blacknorthdemo-mLE25.otf);
+}
+
+.profile .NIGHTMARE {
+  margin: 0.8em 1.2em 0.6em 1.2em;
+
+  color:#313163;
+  font-size: 44px;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  font-family: blackNorth;
+
+  text-decoration: line-through wavy rgb(226, 33, 33) 7px;
+  text-shadow: 0px 0px 7px rgb(199, 186, 0)
 }
